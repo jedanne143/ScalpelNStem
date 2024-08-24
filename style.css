@@ -1,12 +1,17 @@
-body{
-    margin: 0px;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 #homepageContainer{
     display: flex;
     flex-direction: column;
     width:100%;
     height:100%;
+    align-content: center;
 }
+
 .navContainer{
     display:grid;
     font-family:Arial, Helvetica, sans-serif;
@@ -93,7 +98,20 @@ body{
     background-image: linear-gradient(#183D3D, #93B1A6);
 }
 
-#carousel{
+
+#carouselContainer{
+    width: 100%;
+    height:auto;
+    background-image: radial-gradient( #2e423a 60% , black)
+}
+
+#carouselExampleAutoplaying {
     display: flex;
     flex: 1;
+    width: 73%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    flex-direction: column; 
+    min-width: 600px;
 }
